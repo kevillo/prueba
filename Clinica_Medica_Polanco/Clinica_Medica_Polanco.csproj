@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="aa.png" />
+    <None Remove="exit_black.png" />
+    <None Remove="holis.png" />
+    <None Remove="icons8-cent-50.png" />
+    <None Remove="icons8-configuration-60.png" />
+    <None Remove="icons8-databases-98.png" />
+    <None Remove="icons8-man-100.png" />
+    <None Remove="icons8-medical-doctor-100.png" />
+    <None Remove="icons8-report-64.png" />
+    <None Remove="icons8-treatment-50.png" />
+    <None Remove="logo.png" />
+    <None Remove="Salir2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="aa.png" />
+    <Resource Include="exit_black.png" />
+    <Resource Include="holis.png" />
+    <Resource Include="icons8-cent-50.png" />
+    <Resource Include="icons8-configuration-60.png" />
+    <Resource Include="icons8-databases-98.png" />
+    <Resource Include="icons8-man-100.png" />
+    <Resource Include="icons8-medical-doctor-100.png" />
+    <Resource Include="icons8-report-64.png" />
+    <Resource Include="icons8-treatment-50.png" />
+    <Resource Include="logo.png" />
+    <Resource Include="Salir2.png" />
+  </ItemGroup>
+
+</Project>
