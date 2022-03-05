@@ -71,6 +71,5 @@
                 <ImageBrush ImageSource="/logout.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <DataGrid x:Name="dgv_Ventas_Realizadas" Margin="10,109,10,111"/>
     </Grid>
 </Window>
