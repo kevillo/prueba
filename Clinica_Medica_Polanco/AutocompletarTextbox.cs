@@ -14,21 +14,13 @@ namespace Clinica_medica_polanco.Pacientes
         {
             List<string> data = new List<string>();
 
-            data.Add("Afzaal");
-            data.Add("Ahmad");
-            data.Add("Zeeshan");
-            data.Add("Daniyal");
-            data.Add("Rizwan");
-            data.Add("John");
-            data.Add("Doe");
-            data.Add("Johanna Doe");
-            data.Add("Pakistan");
-            data.Add("Microsoft");
-            data.Add("Programming");
-            data.Add("Visual Studio");
-            data.Add("Sofiya");
-            data.Add("Rihanna");
-            data.Add("Eminem");
+            //ConexionBaseDeDatos.ObtenerConexion();
+            SqlCommand comando = new SqlCommand(String.Format("Select Nombre_Paciente from Pacientes;"), ConexionBaseDeDatos.ObtenerConexion());
+            SqlDataReader reader = comando.ExecuteReader();
+            while (reader.Read())
+            {
+                data.Add(reader.GetString(0));
+            }
 
             return data;
         }

@@ -16,7 +16,10 @@ namespace Clinica_medica_polanco.Pacientes
             get => _DescripcionTipoExamen;
             set
             {
-                if (string.IsNullOrEmpty(value.ToString())) _DescripcionTipoExamen = "EROR";
+                if (string.IsNullOrEmpty(value.ToString()))
+                {
+                    throw new FormatException("Este campos esta vacio");
+                }
                 else _DescripcionTipoExamen = value;
             }
         }

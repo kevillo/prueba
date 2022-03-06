@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,10 @@ namespace Clinica_medica_polanco.Pacientes
             get => _DescripcionCategoriaInsumo;
             set
             {
-                if (string.IsNullOrEmpty(value.ToString())) _DescripcionCategoriaInsumo = "ERROR";
+                if (string.IsNullOrEmpty(value.ToString()))
+                {
+                    throw new FormatException("Este campos esta vacio");
+                }
                 else _DescripcionCategoriaInsumo = value;
             }
         }
