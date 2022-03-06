@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Clinica_medica_polanco"
         mc:Ignorable="d"
-        Title="pagarExamenMedico" Height="620" Width="1080" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/aa.png">
+        Title="pagarExamenMedico" Height="620" Width="1080" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/aa.png" WindowStyle="None">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -134,15 +134,15 @@
         <Label Content="Forma de entrega" HorizontalAlignment="Left" Margin="692,171,0,0" VerticalAlignment="Top" Height="35" Width="173" FontFamily="Tahoma" FontSize="17"/>
         <TextBox x:Name="txt_Forma_Entrega_Pagar" VerticalContentAlignment="Center"  HorizontalAlignment="Left" Margin="692,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Height="24" FontSize="15" FontFamily="Tahoma" TextAlignment="Center" IsEnabled="False"/>
         <DataGrid x:Name="dgv_Datos_Pago" Margin="193,237,199,185" FontFamily="Tahoma"/>
-        <Label Content="Subtotal" HorizontalAlignment="Left" Margin="624,398,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="20" Height="33" Width="84"/>
-        <TextBox x:Name="txt_Subtotal" HorizontalAlignment="Left" VerticalContentAlignment="Center" BorderBrush="Transparent" Margin="718,402,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="29" Background="White" FontFamily="Tahoma" FontSize="15" TextAlignment="Center" IsEnabled="False"/>
-        <Button Style="{DynamicResource btn_Style_Pagar_Examen}" Cursor="Hand" Background="#0D2D6F" Foreground="White" x:Name="btn_Pagar" FontSize="28" Content="Procesar pago" HorizontalAlignment="Left" Margin="357,516,0,0" VerticalAlignment="Top" Height="60" Width="300" FontFamily="Tahoma" Click="btn_Pagar_Click"/>
-        <Label Content="Descuento" HorizontalAlignment="Left" Margin="609,426,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="20" Height="33" Width="104"/>
-        <TextBox x:Name="txt_Descuento" HorizontalAlignment="Left" VerticalContentAlignment="Center" BorderBrush="Transparent" Margin="718,430,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="29" Background="White" FontFamily="Tahoma" FontSize="15" TextAlignment="Center" IsEnabled="False"/>
-        <Label Content="IVA(15%)" HorizontalAlignment="Left" Margin="616,455,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="20" Height="33" Width="97"/>
-        <TextBox x:Name="txt_IVA" HorizontalAlignment="Left" VerticalContentAlignment="Center" BorderBrush="Transparent" Margin="718,458,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="29" Background="White" FontFamily="Tahoma" FontSize="15" TextAlignment="Center" IsEnabled="False"/>
-        <Label Content="Total a pagar" HorizontalAlignment="Left" Margin="582,483,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="20" Height="33" Width="131"/>
-        <TextBox x:Name="txt_Total_Pagar" HorizontalAlignment="Left" VerticalContentAlignment="Center" BorderBrush="Transparent" Margin="718,487,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="29" Background="White" FontFamily="Tahoma" FontSize="15" TextAlignment="Center" IsEnabled="False"/>
+        <Label Content="Subtotal" HorizontalAlignment="Left" Margin="634,433,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="20" Height="33" Width="84"/>
+        <TextBox x:Name="txt_Subtotal" HorizontalAlignment="Left" VerticalContentAlignment="Center" BorderBrush="Transparent" Margin="728,437,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="29" Background="White" FontFamily="Tahoma" FontSize="15" TextAlignment="Center" IsEnabled="False"/>
+        <Button Style="{DynamicResource btn_Style_Pagar_Examen}" Cursor="Hand" Background="#0D2D6F" Foreground="White" x:Name="btn_Pagar" FontSize="28" Content="Procesar pago" HorizontalAlignment="Left" Margin="357,554,0,0" VerticalAlignment="Top" Height="60" Width="300" FontFamily="Tahoma" Click="btn_Pagar_Click"/>
+        <Label Content="Descuento" HorizontalAlignment="Left" Margin="619,461,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="20" Height="33" Width="104"/>
+        <TextBox x:Name="txt_Descuento" HorizontalAlignment="Left" VerticalContentAlignment="Center" BorderBrush="Transparent" Margin="728,465,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="29" Background="White" FontFamily="Tahoma" FontSize="15" TextAlignment="Center" IsEnabled="False"/>
+        <Label Content="IVA(15%)" HorizontalAlignment="Left" Margin="626,490,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="20" Height="33" Width="97"/>
+        <TextBox x:Name="txt_IVA" HorizontalAlignment="Left" VerticalContentAlignment="Center" BorderBrush="Transparent" Margin="728,493,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="29" Background="White" FontFamily="Tahoma" FontSize="15" TextAlignment="Center" IsEnabled="False"/>
+        <Label Content="Total a pagar" HorizontalAlignment="Left" Margin="592,518,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="19" Height="33" Width="131"/>
+        <TextBox x:Name="txt_Total_Pagar" HorizontalAlignment="Left" VerticalContentAlignment="Center" BorderBrush="Transparent" Margin="728,522,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="29" Background="White" FontFamily="Tahoma" FontSize="15" TextAlignment="Center" IsEnabled="False"/>
         <Image HorizontalAlignment="Left" Height="99" VerticalAlignment="Top" Width="128" Source="/aa.bmp"/>
 
     </Grid>

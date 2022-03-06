@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Clinica_medica_polanco"
         mc:Ignorable="d"
-        Title="ActualizarEmpleado" Height="620" Width="1080" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/aa.png"   >
+        Title="ActualizarEmpleado" Height="620" Width="1080" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/aa.png" WindowStyle="None">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -209,7 +209,7 @@
         <DatePicker x:Name="dtp_Nacimiento_Actualizar_Empleado" HorizontalAlignment="Left" Margin="231,258,0,0" VerticalAlignment="Top" Width="176" IsEnabled="False"/>
         <Label Content="Actualizar empleado" FontFamily="Tahoma" FontSize="65" HorizontalAlignment="Left" Margin="285,1,0,0" VerticalAlignment="Top" Foreground="White"/>
         <Image HorizontalAlignment="Left" Height="107" Margin="0,1,0,0" VerticalAlignment="Top" Width="139" Source="/aa.bmp"/>
-        <Button Style="{DynamicResource Style_btn_Salir}" x:Name="btn_Actualizar_Empleado_Salir" Content="" HorizontalAlignment="Left" Height="64" Margin="35,502,0,0" VerticalAlignment="Top" Width="69" Click="btn_Actualizar_Empleado_Salir_Click">
+        <Button Style="{DynamicResource Style_btn_Salir}" x:Name="btn_Actualizar_Empleado_Salir" Content="" HorizontalAlignment="Left" Height="60" Margin="35,502,0,0" VerticalAlignment="Top" Width="72" Click="btn_Actualizar_Empleado_Salir_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/logout.png"/>
             </Button.Background>

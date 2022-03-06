@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Clinica_medica_polanco"
         mc:Ignorable="d"
-        Title="Login" Height="620" Width="1080" WindowStartupLocation="CenterScreen"  WindowStyle="None">
+        Title="Login" Height="620" Width="1080" WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -184,9 +184,9 @@
             <Label x:Name="lbl_Login_Usuario" Content="USUARIO" HorizontalAlignment="Left" Margin="396,284,0,0" VerticalAlignment="Top" Width="229" FontWeight="Bold" Foreground="Black" FontFamily="Tahoma" Height="24"/>
             <Label x:Name="lbl_Login_Contraseña" Content="CONTRASEÑA" HorizontalAlignment="Left" Margin="395,359,0,0" VerticalAlignment="Top" Width="229" FontWeight="Bold" Foreground="Black" FontFamily="Tahoma" Height="24"/>
             <Image HorizontalAlignment="Left" Height="163" Margin="410,27,0,0" VerticalAlignment="Top" Width="244" Source="/logo.png"/>
-            <Button Style="{DynamicResource Style_btn_Salir}" Cursor="Hand" HorizontalAlignment="Left" Height="64" Margin="26,507,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click">
+            <Button x:Name="btn_Login_Salir" Style="{DynamicResource Style_btn_Salir}" Cursor="Hand" HorizontalAlignment="Left" Height="64" Margin="41,531,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Salir2.png"/>
+                    <ImageBrush ImageSource="/Salir.png"/>
                 </Button.Background>
             </Button>
         </Grid>

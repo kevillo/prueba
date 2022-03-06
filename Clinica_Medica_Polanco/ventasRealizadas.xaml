@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Clinica_medica_polanco"
         mc:Ignorable="d"
-        Title="ventasRealizadas" Height="622" Width="1080" WindowStartupLocation="CenterScreen">
+        Title="ventasRealizadas" Height="622" Width="1080" WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -66,7 +66,7 @@
         <Label Content="Informe de Ventas" FontFamily="Tahoma" FontSize="50" HorizontalAlignment="Left" Margin="311,7,0,0" VerticalAlignment="Top" Foreground="White"/>
         <Rectangle HorizontalAlignment="Center" Height="84" Margin="0,1,0,0" Stroke="White" VerticalAlignment="Top"   Width="1079" Fill="#260D2D6F"/>
         <Image Margin="0,0,952,521" Stretch="Fill" Source="/aa.bmp"/>
-        <Button x:Name="btn_Salir" Cursor="Hand" Style="{DynamicResource btn_Salir}" Content="" BorderBrush="White" HorizontalAlignment="Left" Margin="479,507,0,0" VerticalAlignment="Top" Height="71" Width="84" Click="btn_Salir_Click">
+        <Button x:Name="btn_Salir" Cursor="Hand" Style="{DynamicResource btn_Salir}" Content="" BorderBrush="White" HorizontalAlignment="Left" Margin="479,507,0,0" VerticalAlignment="Top" Height="60" Width="72" Click="btn_Salir_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/logout.png" Stretch="Uniform"/>
             </Button.Background>

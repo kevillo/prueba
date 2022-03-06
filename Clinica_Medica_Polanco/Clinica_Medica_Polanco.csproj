@@ -24,7 +24,9 @@
     <None Remove="logout.png" />
     <None Remove="logout2.png" />
     <None Remove="lupa.png" />
+    <None Remove="nuevocliente.png" />
     <None Remove="refresh.png" />
+    <None Remove="Salir.png" />
     <None Remove="Salir2.png" />
     <None Remove="trash.png" />
   </ItemGroup>
@@ -51,7 +53,9 @@
     <Resource Include="logout.png" />
     <Resource Include="logout2.png" />
     <Resource Include="lupa.png" />
+    <Resource Include="nuevocliente.png" />
     <Resource Include="refresh.png" />
+    <Resource Include="Salir.png" />
     <Resource Include="Salir2.png" />
     <Resource Include="trash.png" />
   </ItemGroup>

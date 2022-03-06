@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Clinica_medica_polanco"
         mc:Ignorable="d"
-        Title="solicitudExamen" Height="620" Width="1080" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/aa.png">
+        Title="solicitudExamen" Height="620" Width="1080" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/aa.png" WindowStyle="None">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -187,13 +187,13 @@
         <TextBox x:Name="txt_Solicitud_Examen_Buscar" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="102,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="540" Height="29" FontFamily="Tahoma" FontSize="17" TextAlignment="Center"/>
         <Button Style="{DynamicResource Style_btn_Cargar_Examen}" x:Name="btn_Solicitud_Examen_Cargar" Cursor="Hand" Content="Cargar examen" HorizontalAlignment="Left" Margin="659,210,0,0" VerticalAlignment="Top" Height="37" Width="125" FontFamily="Tahoma" FontSize="17" Background="#FF0D2D6F" Foreground="White"/>
         <DataGrid x:Name="dtg_Solicitud_Examen_Examenes" Margin="10,256,10,146" FontFamily="Tahoma"/>
-        <Button x:Name="btn_Solicitud_Examen_Salir" Style="{DynamicResource Style_btn_Salir}" Cursor="Hand" HorizontalAlignment="Left" Margin="10,516,0,0" VerticalAlignment="Top" Height="56" Width="61" FontFamily="Tahoma" FontSize="17" Click="Button_Click">
+        <Button x:Name="btn_Solicitud_Examen_Salir" Style="{DynamicResource Style_btn_Salir}" Cursor="Hand" HorizontalAlignment="Left" Margin="22,492,0,0" VerticalAlignment="Top" Height="60" Width="72" FontFamily="Tahoma" FontSize="17" Click="Button_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/logout.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_Solicitud_Examen_Nuevo_Cliente" Content="      Nuevo Cliente" Cursor="Hand" HorizontalAlignment="Left" Margin="896,464,0,0" VerticalAlignment="Top" Height="37" Width="158" FontFamily="Tahoma" FontSize="17" Background="White" BorderBrush="Transparent"/>
-        <Image HorizontalAlignment="Left" Height="26" Margin="908,470,0,0" VerticalAlignment="Top" Width="28" Source="/nuevocliente.png" RenderTransformOrigin="2,1.117"/>
+        <Button x:Name="btn_Solicitud_Examen_Nuevo_Cliente" Content="      Nuevo Cliente" Cursor="Hand" HorizontalAlignment="Left" Margin="896,482,0,0" VerticalAlignment="Top" Height="37" Width="158" FontFamily="Tahoma" FontSize="17" Background="White" BorderBrush="Transparent"/>
+        <Image HorizontalAlignment="Left" Height="26" Margin="908,488,0,0" VerticalAlignment="Top" Width="28" Source="/nuevocliente.png" RenderTransformOrigin="2,1.117"/>
         <Button Style="{DynamicResource Style_btn_Procesar_Orden}" x:Name="btn_Solicitud_Examen_Procesar_Orden" Cursor="Hand" Content="Procesar Orden" HorizontalAlignment="Center" Margin="0,507,0,0" VerticalAlignment="Top" Height="60" Width="300" FontFamily="Tahoma" FontSize="28" Background="#FF0D2D6F" Foreground="White" Click="btn_Solicitud_Examen_Procesar_Orden_Click"/>
 
     </Grid>
